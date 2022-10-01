@@ -1,6 +1,9 @@
 # Joao Victor Macedo Fernandes Ramos
 
-from lab2_joaoVictorMacedo import discriminante
+
+import sys
+sys.path.insert(0,'..\lab2\lab2_joaoVictorMacedo')
+import lab2_joaoVictorMacedo
 
 #ex. 1 
 
@@ -16,7 +19,7 @@ def numAbsoluto (a):
 # teste 1
 # abs(2)
 # numAbsoluto(2) 
-# saída esperada: 2
+# saída esperada: 2v
 # saída esperada: 2
 # teste 2 
 # abs(-2)
