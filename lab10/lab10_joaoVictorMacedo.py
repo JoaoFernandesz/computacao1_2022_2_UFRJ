@@ -2,7 +2,7 @@
 
 # ex. 2
 
-"""programa que le um código número em um intervalo de 1 a 4 e três valores inteiros e positivos.
+"""progit sgrama que le um código número em um intervalo de 1 a 4 e três valores inteiros e positivos.
    e calcula um resultado dependente do i informado"""
 
 i = int(input("informe um número de um a quatro: "))
@@ -38,7 +38,7 @@ def quatro():
         x += c
         if x <= b:
             lista.append(x)
-    resultado = sum(lista)4
+    resultado = sum(lista)
     print(f'a={a}',f'b={b}',f'c={c}',f'i={i}')
     print(resultado)
 
