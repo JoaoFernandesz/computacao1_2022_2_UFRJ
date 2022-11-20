@@ -56,10 +56,10 @@ def deu_match(afinidades):
     for participante in participantes:
         for curtiu in afinidades[participante]:
             if participante in afinidades[curtiu]:
-                if match[::-1] not in matchs:
-                    list.append(matchs, match)
+                if matchs[::-1] not in matchs:
+                    list.append(matchs, matchs)
 
-    return match
+    return matchs
 
 # ex. 3
 
